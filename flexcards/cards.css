@@ -1,0 +1,41 @@
+.cards{
+    width:100%;
+
+    /* You can use padding as a shortcut for all direction - think like a clock : top -> right -> bottom -> left */
+    padding:8vh 0;
+
+    background: var(--mid-color);
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    justify-content: center;
+
+}
+
+.cards section{
+    flex:0 1 300px;
+    align-self:stretch;
+
+    background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(52, 52, 52, 0.6);
+
+    padding: 1.5rem;
+}
+
+.cards p{
+    font-size: small;
+    margin:1.5rem 0;
+}
+
+.cards h3{
+    font-size:x-large;
+    font-family: var(--brand-font);
+    color: var(--mid-color);
+}
+
+.cards span{
+    color: var(--brand-color);
+}
