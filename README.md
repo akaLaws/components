@@ -1,2 +1,2 @@
-# components
-Components in frontend development to use on future projects
+# UI Komponenter - Grundforkøb 2 webudvikler
+Komponenter udviklet under grundforløbet både som opgaver og code-alongs.
